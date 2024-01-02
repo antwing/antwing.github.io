@@ -7,6 +7,9 @@ body {
   margin: 0rem;
   overflow-x: hidden;
 }
+h1{
+  color:white;
+}
 
 /* style the navbar */
 .topnav {
@@ -87,7 +90,6 @@ body {
   scroll-behavior: smooth;
   scroll-padding-right: 16px; /* Adjust as needed for scrollbars */
   -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
-  
 }
 
 /* page content work page */
@@ -132,15 +134,3 @@ img {
 .resume::-webkit-scrollbar {
   display: none; /* Hide scrollbar on Chrome and Safari */
 }
-
-body::-webkit-scrollbar {
-  width: 0px;
-}
-
-
-
-
-
-
-
-
